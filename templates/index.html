@@ -9,6 +9,22 @@
 <body>
     <h1>Welcome to Olivanders Shop</h1>
     <h1>{{ data.bienvenida }}</h1>
+
+    <button id="inventario">inventario</button>
+
+    <ul id="itemList">
+        <li>Aqui los items...</li>
+    </ul>
+
+    <form class="add-item">
+        <input type="text" name="name" placeholder="Item Name" required/>
+        <input type="text" name="sell_in" placeholder="Sell in" />
+        <input type="text" name="quality" placeholder="Quality" required />
+        <input type="submit" value="Añadir Item" />
+        <input type="reset" value="Reset" />
+        <input type="button" name="delete" value="Eliminar Item" />
+    </form>
+
     
 </body>
 </html>
